@@ -14,8 +14,7 @@ use serde_json::{json, Value};
 use std::env;
 use std::time::Duration;
 
-// const API_URL: &str = "https://api.openai.com/v1/chat/completions";
-const API_URL: &str = "https://api.chatanywhere.com.cn/v1/chat/completions";
+const API_URL: &str = "https://api.openai.com/v1/chat/completions";
 
 #[derive(Debug)]
 pub struct OpenAIClient {
